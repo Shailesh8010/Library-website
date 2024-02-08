@@ -1,0 +1,45 @@
+.adduser {
+    background-position: center;
+    background-color: rgba(71, 70, 70, 0.189);
+    background-size: cover;
+    padding: 5px;
+    height: 100vh;
+    text-align: center;
+}
+
+.form1 {
+    background-color: rgba(109, 109, 127, 0.54);
+    padding: 40px 10px;
+    margin: 0 auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 10px 6px 10px 1px rgb(174, 174, 185);
+}
+
+.form1 input {
+    width: 100%;
+    height: 25px;
+    margin: 10px 0;
+}
+
+.section {
+    position: relative;
+    margin-top: 1px;
+}
+
+.section h1 {
+    text-shadow: -10px 8px 15px rgb(130, 122, 122);
+}
+
+@media screen and (min-width: 768px) {
+    .form1 {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form1 {
+        max-width: 1000px;
+    }
+}
